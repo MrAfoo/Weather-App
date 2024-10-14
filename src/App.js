@@ -21,9 +21,11 @@ function App() {
       setCity('')
     
   }
-
+  // bg-[#4aacb1]
   return (
-    <div className='w-[100%] h-[100vh] bg-[#4aacb1]'>
+    <div className='w-[100%] h-[100vh] bg-cover bg-center'
+    style={{backgroundImage: 'url("https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?cs=srgb&dl=pexels-jplenio-1118873.jpg&fm=jpg")'}}
+    > 
       <div className='max-w-[1320px] mx-auto'>
         <h1 className='text-[40px] font-bold py-[50px] text-white pl-9'>Simple Weather App</h1>
 
